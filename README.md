@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+PROJECT TITLE:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+File Upload Manager
 
-## Available Scripts
+AIM:
 
-In the project directory, you can run:
+To design and develop a user-friendly File Upload Manager application that allows users to securely upload, manage, and retrieve files over the web, with proper validation, organization, and access control mechanisms.
 
-### `npm start`
+PROJECT OBJECTIVE:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The primary objective of this project is to simplify the process of uploading, storing, and managing files online. The system ensures data integrity, provides role-based access control, and supports various file formats.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+FEATURES:
 
-### `npm test`
+User Authentication:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Login/Signup system for secure access
 
-### `npm run build`
+Role-based access: Admin & User
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+File Upload Functionality:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Support for multiple file formats (PDF, DOCX, JPG, PNG, ZIP, etc.)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Drag and drop file upload
 
-### `npm run eject`
+Progress bar during uploads
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+File Management:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+View uploaded files in a structured layout
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Rename, delete, or download files
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Create folders to organize files
 
-## Learn More
+Storage Limitation:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Set upload size limits per user or file type
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Display remaining storage quota
 
-### Code Splitting
+Search & Filter:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Search files by name, type, or upload date
 
-### Analyzing the Bundle Size
+Filter files by format or folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Security Features:
 
-### Making a Progressive Web App
+File validation (type and size check)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Virus/malware scan integration (optional)
 
-### Advanced Configuration
+Encrypted storage (optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Admin Panel:
 
-### Deployment
+View all user uploads
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Manage users, view storage statistics, and file logs
 
-### `npm run build` fails to minify
+TECHNOLOGIES USED:
+Category	Technologies
+Frontend	HTML, CSS, JavaScript, Bootstrap
+Backend	Node.js / PHP / Python (Django/Flask)
+Database	MySQL / MongoDB
+Storage	Local server storage / AWS S3 / Firebase Storage
+Authentication	JWT / OAuth / Firebase Auth
+Optional Tools	Antivirus API, Cloudinary, REST API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+screenshots
+<img width="1913" height="1056" alt="Screenshot 2025-10-08 155428" src="https://github.com/user-attachments/assets/b5c868a8-401b-44ff-88dd-928294b83208" />
+
+
+<img width="1914" height="1047" alt="Screenshot 2025-10-08 155404" src="https://github.com/user-attachments/assets/89fb83d0-9e09-41a2-88ea-9e8b11acd711" />
+
+
+<img width="1905" height="1066" alt="Screenshot 2025-10-08 154925" src="https://github.com/user-attachments/assets/866faff0-c18e-471a-a6bd-9d2f1018be6f" />
+
+
+
+
+
